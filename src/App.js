@@ -34,7 +34,7 @@ function App() {
     setSearching(false);//when the item get selected by user then  disappear the searchList
   }
 
-  const searchContextValue = {//which value that we want the <SearchBar /> to have access to ? which is handleSearchChange and title
+  const searchContextValue = {//which value that we want the <SearchBar /> to have access to ?? which is handleSearchChange and title
     handleSearchChange,
     handleMovieSelected,
     title: searchValue,
